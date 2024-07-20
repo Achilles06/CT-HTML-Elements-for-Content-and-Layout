@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Tips</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, footer {
+            padding: 20px;
+            background: #f4f4f4;
+            margin: 10px;
+        }
+        header {
+            background: #333;
+            color: #fff;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Task 1: Define the Page Structure -->
+    <header>
+        <h1>Photography Tips</h1>
+    </header>
+    
+    <nav>
+        <a href="#basics">Basics</a>
+        <a href="#equipment">Equipment</a>
+        <a href="#techniques">Techniques</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <main>
+        <!-- Task 2: Organize Content Using Articles and Sections -->
+        <article id="basics">
+            <h2>Photography Basics</h2>
+            <section>
+                <h3>Understanding Exposure</h3>
+                <p>Exposure is the amount of light that reaches your camera sensor, and it determines how light or dark your photo will be. The three main components of exposure are aperture, shutter speed, and ISO.</p>
+            </section>
+            <section>
+                <h3>Composition Techniques</h3>
+                <p>Good composition is key to creating visually appealing photos. Some common techniques include the rule of thirds, leading lines, and framing.</p>
+            </section>
+        </article>
+
+        <article id="equipment">
+            <h2>Photography Equipment</h2>
+            <section>
+                <h3>Cameras</h3>
+                <p>Choosing the right camera can be overwhelming. There are DSLRs, mirrorless cameras, and compact cameras, each with their own advantages and disadvantages.</p>
+            </section>
+            <section>
+                <h3>Lenses</h3>
+                <p>Lenses are crucial for achieving different types of shots. Wide-angle lenses are great for landscapes, while telephoto lenses are perfect for wildlife photography.</p>
+            </section>
+        </article>
+
+        <article id="techniques">
+            <h2>Photography Techniques</h2>
+            <section>
+                <h3>Portrait Photography</h3>
+                <p>Portrait photography focuses on capturing the personality and mood of a person or group. Lighting and posing are important elements to master in this genre.</p>
+            </section>
+            <section>
+                <h3>Landscape Photography</h3>
+                <p>Landscape photography is all about capturing the beauty of the natural world. Pay attention to the time of day, weather conditions, and composition.</p>
+            </section>
+        </article>
+
+        <!-- Task 3: Enhance Accessibility with Semantic Markup -->
+        <aside>
+            <h2>Quick Tips</h2>
+            <ul>
+                <li>Always carry an extra battery.</li>
+                <li>Experiment with different angles and perspectives.</li>
+                <li>Don't be afraid to edit your photos to enhance their quality.</li>
+            </ul>
+        </aside>
+
+        <figure>
+            <img src="https://example.com/photography.jpg" alt="Camera and lens" width="600">
+            <figcaption>A high-quality camera and lens setup.</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <address id="contact">
+            <p>Contact us at: <a href="mailto:info@photographytips.com">info@photographytips.com</a></p>
+        </address>
+        <p>&copy; 2023 Photography Tips</p>
+    </footer>
+
+</body>
+</html>
